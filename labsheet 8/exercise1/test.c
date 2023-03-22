@@ -1,0 +1,28 @@
+#include<stdio.h>
+int max();
+int main(){
+max();
+printf("\nMaximum =%d\n",x);
+return 0;
+}
+
+void max(){
+	int a,b,c;
+	int x;
+	printf("Insert  number=");
+	scanf("%d",&a);
+	printf("Insert number=");
+	scanf("%d",&b);
+	printf("Insert  number=");
+	scanf("%d",&c);
+	if((a>b)&&(a>c)){
+		x=a;
+		}
+	else if (b>c){
+		x=b;
+		}
+	else {
+		x=c;
+		}
+
+}
